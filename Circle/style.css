@@ -1,0 +1,35 @@
+.wrapper {
+    height: 100vh;
+    position: relative;
+  }
+  .inner_circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid red;
+  }
+  .outer_circle {
+    height: 80px;
+    aspect-ratio: 1/1;
+    border: 2px solid green;
+    border-radius: 50%;
+  }
+  .place_center_grid{
+    display: grid;
+    place-items: center;
+  }
+  .circle_absolute {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 50%;
+  }
+  .wrapper:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
