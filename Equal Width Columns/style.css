@@ -1,0 +1,25 @@
+.my_container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 10px;
+}
+.center_img {
+    height: 40px;
+}
+.my_col {
+    text-align: center;
+    padding-block: 40px;
+}
+.yellow_bg {
+    background-color: #fec84a;
+}
+.skyBlue_bg {
+    background-color: #6bcaff;
+}
+.red_bg {
+    background-color: #da4b58;
+}
+.green_bg {
+    background-color: #18ad8f;
+}
